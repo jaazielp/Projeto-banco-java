@@ -1,4 +1,6 @@
-public abstract class Conta {
+import java.io.Serializable;
+
+public abstract class Conta implements Serializable {
     private String numeroConta;
     private String usuario;
     private double saldo;
